@@ -103,6 +103,6 @@ input_path = sys.argv[1]
 input_text = open_and_read_file(input_path)
 # Get a Markov chain
 chains = make_chains(input_text)
-# Produce random text
+# Produce random texts
 random_text = make_text(chains)
 print(random_text)
